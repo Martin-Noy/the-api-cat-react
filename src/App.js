@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import Gatito from "./Components/Gatito";
 import Select from "./Components/Select";
+import "../src/Styles/App.css"
 const URL = 'https://api.thecatapi.com/v1/breeds'
 export default function App() {
   const [gatitos, setGatitos] = useState([])
@@ -26,10 +27,12 @@ export default function App() {
     
   }
   useEffect(() => {
-    fetchData()
-  }, [fetchData])
+      fetchData()
+    }, 
+    [fetchData]
+  )
   return (
-    <div>
+    <div className="container">
       <h1>Seleccione un gatito</h1>
       <Select gatitos={gatitos} handleChange={handleChange}/>
       {gatito.name !== undefined ?

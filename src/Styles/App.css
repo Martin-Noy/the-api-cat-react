@@ -1,0 +1,13 @@
+h1{
+    color:rgb(39, 38, 44);
+    font-family: 'Gill Sans', sans-serif;
+}
+.container{
+    min-height: 92vh;
+    position: flex;
+    text-align: center;
+    margin: 15px 15px;
+    padding: 15px 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}

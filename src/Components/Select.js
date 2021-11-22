@@ -1,3 +1,4 @@
+import "../Styles/Select.css"
 export default function Select({ gatitos, handleChange }) {
     return (
         <select style={{ width: '150px' }} value={gatitos.name} onChange={handleChange}>
