@@ -5,8 +5,14 @@
     max-width: 300px;
     min-width: 250px;
     text-overflow: ellipsis;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 0px 4px 5px 4px;
 }
 .description{
+    margin: 10px 10px;
+    display: block;
     background-color: aliceblue;
     border-radius: 15px;
+    padding: 1px 1px;
 }
